@@ -67,5 +67,3 @@ autotest$p.value
 library(hwwntest)
 bartlettB.test(as.vector(freq.res))
 bartlettB.test(as.vector(freq.stdres))
-hwwn.test(as.vector(freq.res[1:2048]))
-hwwn.test(as.vector(freq.stdres[1:2048]))
