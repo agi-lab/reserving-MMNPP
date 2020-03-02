@@ -2,6 +2,10 @@
 #### MMNPP calibration from simulated examples ####
 ###################################################
 
+### For measuring calibration times - not needed for general usage ###
+#library(tictoc)
+#tic()
+
 ### Define parameters to be updated ###
 library(expm)
 
@@ -118,6 +122,9 @@ for (loopcount in 1:numiter) {
   #   break
   # }
 }
+
+### End calibration time - not needed for general usage ###
+#toc()
 
 #Clear elements to reduce file size
 rm("C.k.mat")
